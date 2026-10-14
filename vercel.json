@@ -1,0 +1,1 @@
+{ "version": 2, "functions": { "api/index.js": { "memory": 512, "maxDuration": 15, "includeFiles": "{*.png,fonts/*}" } }, "rewrites": [ { "source": "/(.*)", "destination": "/api/index.js" } ] }
